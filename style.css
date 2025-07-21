@@ -1,0 +1,28 @@
+header {
+  font-size: 50px;
+}
+
+main div {
+  color: aquamarine;
+}
+
+main div {
+  font-size: 60px;
+  color: #000;
+}
+
+main .list {
+  color: red;
+}
+
+/* .test-parent .test-child {
+  color: blue;
+} */
+
+.test-parent :first-child {
+  color: red;
+}
+
+.test-parent .test-child2.active {
+  color: yellow;
+}
